@@ -1,4 +1,4 @@
-package wuxian.me.slightsniffer;
+package wuxian.me.slightsniffer.util;
 
 import java.io.IOException;
 import java.nio.file.FileSystems;

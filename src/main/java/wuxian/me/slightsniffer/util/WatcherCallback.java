@@ -1,4 +1,4 @@
-package wuxian.me.slightsniffer;
+package wuxian.me.slightsniffer.util;
 
 import java.nio.file.WatchEvent;
 

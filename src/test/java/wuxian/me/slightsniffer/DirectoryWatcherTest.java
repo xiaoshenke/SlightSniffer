@@ -1,11 +1,11 @@
 package wuxian.me.slightsniffer;
 
 import org.junit.Test;
+import wuxian.me.slightsniffer.util.DirectoryWatcher;
+import wuxian.me.slightsniffer.util.WatcherCallback;
 
 import java.nio.file.StandardWatchEventKinds;
 import java.nio.file.WatchEvent;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by wuxian on 22/12/2017.
