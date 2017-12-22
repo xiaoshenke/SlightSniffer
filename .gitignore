@@ -1,0 +1,15 @@
+*.iml
+.DS_Store
+.idea/*
+out
+target
+.idea/libraries/*
+.idea/libraries
+.idea/artifacts
+.idea/vcs.xml
+.idea/misc.xml
+.idea/workspace.xml
+lib
+logs
+conf/log4j*
+conf/log4j.properties
