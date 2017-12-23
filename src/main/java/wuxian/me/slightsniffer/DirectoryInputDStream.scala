@@ -37,6 +37,8 @@ private class DirectoryReceiver[T: ClassTag](path: String,
     DirectoryWatcher.createWatcher(path, new WatcherCallback {
       override def execute(kind: Kind[_], filePath: String): Unit = {
 
+        store(filePath.asInstanceOf[T])
+        /*
         val file: File = new File(path)
 
         try
@@ -51,6 +53,7 @@ private class DirectoryReceiver[T: ClassTag](path: String,
           case e: IOException => {
           }
         }
+        */
       }
     }, StandardWatchEventKinds.ENTRY_CREATE)
   }
